@@ -22,21 +22,6 @@ void triangle() {
 	glVertex2f(250,400);
 	glVertex2f(400, 100);
 	glEnd();
-
-	glColor3f(1.0,1.0,1.0);
-	glBegin(GL_POLYGON);
-	glVertex2f(200,200);
-	glVertex2f(350,500);
-	glVertex2f(500, 200);
-	glEnd();
-
-	glColor3f(0.0,1.0,0.0);
-	glBegin(GL_POLYGON);
-	glVertex2f(200,200);
-	glVertex2f(450,600);
-	glVertex2f(600, 300);
-	glEnd();
-
 }
 
 float th = 9.0;
